@@ -1,7 +1,0 @@
-Structs
-Structs in Solidity are a powerful way to group variables under a single name, providing a clear and organized structure to manage related data.
-
-Key Characteristics:
-Grouped Variables: Structs allow you to group multiple variables under a single name, making your code more organized and easier to manage.
-Flexible Storage Locations: Structs can be stored in different data locations, such as storage, memory, and calldata, depending on the use case.
-Nested Structures: Structs can be nested within other structs, arrays, or mappings, enabling complex data structures.
