@@ -28,6 +28,3 @@ Memory Location Declaration: When used as function arguments, you must declare t
 Calldata: Read-only, used for function parameters that do not need to be modified.
 Memory: Temporary storage used within function execution.
 Storage: Permanent storage on the blockchain.
-Reference vs Value Types:
-Passed by Reference: Reference types are potentially passed by reference, meaning the function can modify the actual data rather than a copy.
-Value Types: In contrast, value types (such as integers and booleans) are passed by value, where a copy of the data is provided to the function.
