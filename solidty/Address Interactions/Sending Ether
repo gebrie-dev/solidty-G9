@@ -1,0 +1,9 @@
+Message Calls
+Sending value and calldata to contracts involves message calls.
+
+The first message call initiates the transaction.
+Each subsequent message call is part of the same transaction (contract-to-contract).
+The transaction and any state changes only complete when the initial function call finishes execution.
+How Do EOAs and Contracts Call Other Contracts?
+Using the Address: Both EOAs (Externally Owned Accounts) and contracts use the address of the contract they want to communicate with. This address is a 20-byte data type in Solidity.
+The msg.sender: From the previous discussions, the msg.sender is an address representing the caller of the function.

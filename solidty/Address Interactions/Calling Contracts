@@ -1,0 +1,20 @@
+Calldata: How to Target Functions
+It's helpful to remember that Solidity's job is to compile contracts to bytecode. Solidity does not know about the chain it's deployed on. If you tell Solidity to call an address with calldata, it will do that. You can achieve this with both high-level and low-level syntax.
+
+A)High-Level Syntax
+In Solidity, the high-level syntax allows for clear and straightforward function calls. When you call a function using high-level syntax, Solidity handles the encoding of the calldata for you automatically. This simplifies the process of interacting with other contracts and functions, making your code more readable and easier to maintain.
+
+Key Features:
+Automatic Encoding: The high-level syntax handles the conversion of function arguments into calldata, reducing the complexity for developers.
+Readability: Code written with high-level syntax is typically more readable and easier to understand.
+Ease of Use: It simplifies the process of making function calls, particularly for beginners.
+B)Low-Level Syntax
+Low-level syntax provides more control over the calldata but requires manual encoding. This approach is useful for advanced use cases or when interacting with contracts for which you do not have the ABI (Application Binary Interface).
+
+Key Features:
+Manual Control: Low-level syntax allows developers to encode the calldata themselves, providing greater control over the function call process.
+Flexibility: This method can be used to interact with any contract, even without its ABI.
+Advanced Use Cases: Ideal for scenarios that require detailed management of the data being sent in function calls.
+Understanding Calldata
+Calldata is a non-modifiable, non-persistent area where function arguments are stored. It is read-only and used to pass data to functions, particularly in external function calls. Understanding how to use calldata effectively is crucial for writing efficient and secure smart contracts.
+

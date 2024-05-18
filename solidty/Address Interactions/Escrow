@@ -1,0 +1,20 @@
+Escrow: Let's Get Real World
+You now understand storage and value/data transfer between smart contracts.
+You can now produce useful Solidity contracts.
+Let's build an escrow agreement between two parties to transfer some value, arbitrated by a third party.
+Understanding Escrow
+An escrow is a secure financial arrangement where a neutral third party holds funds until the terms of a transaction are met. This setup ensures that both parties fulfill their obligations before the transaction is completed, adding a layer of trust and security.
+
+Key Components
+Participants:
+
+Buyer: The party purchasing goods or services and depositing funds into the escrow.
+Seller: The party providing goods or services and receiving funds from the escrow.
+Arbitrator: A neutral third party who resolves disputes and authorizes the release of funds.
+
+Functionality
+
+Deposit Funds: The buyer deposits the agreed amount into the escrow contract.
+Confirm Delivery: The buyer confirms receipt of the goods or services.
+Release Funds: The arbitrator releases the funds to the seller upon delivery confirmation.
+Dispute Resolution: The arbitrator resolves disputes if the buyer and seller disagree.
