@@ -12,6 +12,8 @@ contract ContractTest is Test {
         assertFalse(address(myContract) == address(0));
     }
 
+
+
     function testFailure() public {
         myContract = new Contract{ value: 0.5 ether }();
         assertEq(address(myContract), address(0));
