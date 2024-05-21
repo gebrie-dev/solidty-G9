@@ -1,5 +1,5 @@
 # solidty-G9
-# Team members Name ................Id numbure
+# Team members Name ................Id number
      Solomon Tadesse............ugr/23953/13
      Dibora Tegaye .............ugr/
      Natnael Girma.............ugr/
