@@ -1,4 +1,4 @@
-Calldata: How to Target Functions
+Calldata: How to Target Function
 It's helpful to remember that Solidity's job is to compile contracts to bytecode. Solidity does not know about the chain it's deployed on. If you tell Solidity to call an address with calldata, it will do that. You can achieve this with both high-level and low-level syntax.
 
 A)High-Level Syntax
